@@ -1,0 +1,4 @@
+venv
+.env
+songcrud/db.sqlite3
+songcrud/SECRET_KEY
