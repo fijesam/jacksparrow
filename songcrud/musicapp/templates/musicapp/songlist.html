@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <ol>
+        {%for song in songs%}
+        
+        <li>   
+            <a href="{% url 'song-lyric' song.id %}">{{song.artiste}}</a> {{song.title}}</li>
+        {%endfor%}
+   </ol>
+{% endblock %}      
+     
